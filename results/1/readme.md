@@ -107,11 +107,7 @@ condition, substrate, block, strain, time_h, replicate, value
 
 ## 三、运行
 
-```cmd
-cd D:\TAOXU\code\after_20260214\biofigure_0605\process\1
-D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe 1_dataprocess.py
-D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe 1_plt.py
-```
+
 
 第一步只在 xlsx 改动后需要重跑；调整图形参数只需要重跑第二步。
 
@@ -252,10 +248,7 @@ D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe 1_plt.py
 
 ### 运行
 
-```cmd
-cd D:\TAOXU\code\after_20260214\biofigure_0605\process\1
-D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe analyze.py
-```
+
 
 仅依赖已有 `processed.csv`，无需重跑数据清洗。
 
@@ -266,7 +259,7 @@ D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe analyze.py
 
 若 `statsmodels` 未装：
 ```cmd
-D:\taoxu_softwares\miniconda\2\envs\open_manus\python.exe -m pip install statsmodels --only-binary :all: -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install statsmodels --only-binary :all: -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ### 备注
